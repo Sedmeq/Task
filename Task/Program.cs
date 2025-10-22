@@ -15,9 +15,9 @@ class Program
         Console.WriteLine(result2);
 
         StringContainsMethod stringContains = new StringContainsMethod();
-        bool containsResult = stringContains.customContains("Hello, World!", "World");
+        bool containsResult = stringContains.customContains("Bu bir custom contains methodudur", "Bu");
         Console.WriteLine(containsResult);
-        bool containsCharResult = stringContains.customContains("Hello, World!", 'H');
+        bool containsCharResult = stringContains.customContains("Bu bir custom contains methodudur", 'b');
         Console.WriteLine(containsCharResult);
 
     }

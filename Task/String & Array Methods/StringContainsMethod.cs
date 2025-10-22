@@ -10,6 +10,8 @@ namespace Task.String___Array_Methods
     {
         public bool customContains(string input, string substring)
         {
+            input = toLowerCase(input);
+            substring = toLowerCase(substring);
             if (substring.Length == 0)
             {
                 return true;
@@ -33,6 +35,8 @@ namespace Task.String___Array_Methods
         }
         public bool customContains(string input, char character)
         {
+            input = toLowerCase(input);
+            character = Char.ToLower(character);
             for (int i = 0; i < input.Length; i++)
             {
                 if (input[i] == character)
@@ -41,6 +45,20 @@ namespace Task.String___Array_Methods
                 }
             }
             return false;
+        }
+        public string toLowerCase(string input)
+        {
+            StringBuilder result = new StringBuilder();
+            for (int i = 0; i < input.Length; i++)
+            {
+                char c = input[i];
+                if (c >= 'A' && c <= 'Z')
+                {
+                    c = (char)(c + ('a' - 'A'));
+                }
+                result.Append(c);
+            }
+            return result.ToString();
         }
     }
 }
