@@ -11,7 +11,7 @@ namespace Task.String___Array_Methods
         public bool customContains(string input, string substring)
         {
             input = toLowerCase(input);
-            substring = toLowerCase(substring);
+            substring = toLowerCase(substring); 
             if (substring.Length == 0)
             {
                 return true;
@@ -48,15 +48,15 @@ namespace Task.String___Array_Methods
         }
         public string toLowerCase(string input)
         {
-            StringBuilder result = new StringBuilder();
+            string result = "";
             for (int i = 0; i < input.Length; i++)
             {
                 char c = input[i];
                 if (c >= 'A' && c <= 'Z')
                 {
-                    c = (char)(c + ('a' - 'A'));
+                    c = (char)(c + 32);
                 }
-                result.Append(c);
+                result+=c;
             }
             return result.ToString();
         }
