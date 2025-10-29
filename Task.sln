@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceTask", "Inherita
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance-2", "Inheritance-2\Inheritance-2.csproj", "{38CC4569-4D32-4DFE-8EBF-38501D23BA68}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encapsulation", "Encapsulation\Encapsulation.csproj", "{AA9135DF-63B0-4282-A949-76C2EF1A711A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{38CC4569-4D32-4DFE-8EBF-38501D23BA68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38CC4569-4D32-4DFE-8EBF-38501D23BA68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38CC4569-4D32-4DFE-8EBF-38501D23BA68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA9135DF-63B0-4282-A949-76C2EF1A711A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA9135DF-63B0-4282-A949-76C2EF1A711A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA9135DF-63B0-4282-A949-76C2EF1A711A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA9135DF-63B0-4282-A949-76C2EF1A711A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
